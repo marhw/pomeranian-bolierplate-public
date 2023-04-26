@@ -9,9 +9,13 @@ export function Exercise() {
     return `Witaj ${name}! Jesteś ${amount} uzytkownikiem odwiedzającym tę stronę!`;
   }
 
+  let x = 3;
+  let y = 2;
+
   return (
     <div>
       <p>Definiowanie funkcji</p>
+      <h1>Wynik mnozenia</h1>
       <pre>
         <code>
           {`
@@ -23,11 +27,12 @@ export function Exercise() {
             `}
         </code>
       </pre>
+      <div></div>
 
       <section>
         <h2>Wykorzystywanie funkcji - przykłady</h2>
         <pre>
-          <code>9 * 9 = {multiply(9, 9)}</code>
+          <code>{multiply(x, y)}</code>
         </pre>
         <pre>
           <code>{getWelcomeMessage('Jon', 129384)}</code>
