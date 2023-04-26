@@ -8,6 +8,7 @@ export function ExerciseItemHeader({ data }) {
       <p>{`Tytuł: ${data?.linkLabel || '-'}`}</p>
       <p>{`Data: ${data?.date || '-'}`}</p>
       <GoBackLink />
+      <div></div>
     </div>
   );
 }
